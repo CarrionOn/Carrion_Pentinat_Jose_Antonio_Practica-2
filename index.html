@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style type=Constellation></style>
+    <meta charset="UTF-8">
+    <title>Mi primera web</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/grid.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+<body>
+    <header class="header">
+         <h1 class="title">Constelaciones</h1>ç
+         <div id="title-img-animated" class="title-img"></div>
+         <p class="title-cite" >"Descubre quien eres, y lucha por lo que de verdad vale la pena."</p>
+    </header>
+
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item active">
+                <a href="#">Inicio</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#quien-soy">Quien soy</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#equipo">Alter Ego</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#compañía">Como verme</a>
+            </li>
+            <li class="navbar-item">
+                <a href="contact.html">Encuentrame</a>
+            </li>
+            <li class="navbar-item">
+                <a href="tasks.html">Tareas</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="quien-soy" class="about-me clearfix section-container">
+            <div class="Constellation-video">
+                <!--video-->
+                <video id="video" width="1250" height="550" controls>
+                    <source src="./video/Constellation.mp4" type="video/mp4">
+                </video>
+
+            </div>
+            <div class="Constellation-info">
+                <!--Información de Constellation-->
+                <h2><center>Quien soy</center></h2>
+                <span class="Constellation-description">
+Yo soy parte de ti, soy tus vidas pasadas, y las vidas futuras. Quizás no me conozcas, pero, hemos estado juntos desde los inicios y estaremos unidos hasta el final. Soy lo que representas y tu eres quien me respresenta. Valiente, sabio, ágil, bravo... Yo soy lo que siempre has sido y serás.
+                </span>
+            </div>
+        </section>
+
+        <section id="equipo" class="team section-reverse section-container">
+            <div class="row container">
+                <div class="col-4">
+                    <article class="team-member">
+                         <!--Acuario (foto, texto, personaje, actor)-->
+                        <header>
+                            <h3>
+                                <font color="#58D3F7">Acuario</font>
+                            </h3>
+                            <h4 class="position">Buscadora del Agua</h4>
+                        </header>
+
+                        <figure class="team-member-photo">
+                                <div class="flip">
+                                    <div class="front flip-img">
+                                        <img src="./images/Acuario.jpg" alt="Acuario">
+                                    </div>
+                                    <div class="back flip-img">
+                                        <img src="./images/AcuarioH.jpg" alt="Acuario">
+                                    </div>
+                                </div>
+                            </figure>
+
+                        <p class="bio">
+                            "Inteligente y tranquila. Devastadora como las mareas." - <cite><font color="#58D3F7">Sigue tus propias Corrientes</font></cite>
+                        </p>
+
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="team-member">
+                         <!--Aries (foto, texto, personaje, actor)-->
+                         <header>
+                            <h3>
+                                <font color="#F45B0F">Aries</font>
+                            </h3>
+                            <h4 class="position">Experta de la Guerra</h4>
+                        </header>
+
+                         <figure class="team-member-photo">
+                            <div class="flip">
+                                <div class="front flip-img">
+                                    <img src="./images/Aries.jpg" alt="Aries">
+                                </div>
+                                <div class="back flip-img">
+                                    <img src="./images/AriesH.jpg" alt="Aries">
+                                </div>
+                            </div>
+                        </figure>
+
+                        <p class="bio">
+                            "Valiente, luchadora y agresiva. Experta en el manejo de armas cuerpo a cuerpo.” - <cite><font color="#F45B0F">Cuida tu espalda o te la romperé</font></cite>
+                        </p>
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="team-member">
+                         <!--cancer (foto, texto, personaje, actor)-->
+                         <header>
+                            <h3>
+                                <font color="#CBFB48">Cancer</font>
+                            </h3>
+                            <h4 class="position">Buscadora de información</h4>
+                        </header>
+
+                        <figure class="team-member-photo">
+                                <div class="flip">
+                                    <div class="front flip-img">
+                                        <img src="./images/cancer.jpg" alt="cancer">
+                                    </div>
+                                    <div class="back flip-img">
+                                        <img src="./images/cancerH.jpg" alt="cancer">
+                                    </div>
+                                </div>
+                            </figure>
+
+                        <p class="bio">
+                            "Tranquila y sigilosa. El suero de la verdad encarnado en persona." - <cite><font color="#CBFB48">¿Veo que te preocupa algo? Sabes que puedes confiar en mi</font></cite>
+                        </p>
+                    </article>
+                </div>
+                <div class="col-4">
+                        <article class="team-member">
+                             <!--Capricornio (foto, texto, personaje, actor)-->
+                             <header>
+                                <h3>
+                                    <font color="#715DDC">Capricornio</font>
+                                </h3>
+                                <h4 class="position">La Astromaga</h4>
+                            </header>
+    
+                            <figure class="team-member-photo">
+                                    <div class="flip">
+                                        <div class="front flip-img">
+                                            <img src="./images/capricornio.jpg" alt="capricornio">
+                                        </div>
+                                        <div class="back flip-img">
+                                            <img src="./images/capricornioH.jpg" alt="capricornio">
+                                        </div>
+                                    </div>
+                                </figure>
+    
+                            <p class="bio">
+                                "Inteligente, paciente y detallista. Su conocimiento no tiene límites." - <cite><font color="#715DDC">La verdadera fuerza está en un frágil trozo de papel</font></cite>
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                            <article class="team-member">
+                                 <!--geminis (foto, texto, personaje, actor)-->
+                                 <header>
+                                    <h3>
+                                        <font color="#6BCEB7">Geminis</font>
+                                    </h3>
+                                    <h4 class="position">El doble cometido</h4>
+                                </header>
+        
+                                <figure class="team-member-photo">
+                                        <div class="flip">
+                                            <div class="front flip-img">
+                                                <img src="./images/geminis.jpg" alt="geminis">
+                                            </div>
+                                            <div class="back flip-img">
+                                                <img src="./images/geminisH.jpg" alt="geminis">
+                                            </div>
+                                        </div>
+                                    </figure>
+        
+                                <p class="bio">
+                                    "Abierta de mente, creativa y letal. No dudes que golperán dos veces." - <cite><font color="#6BCEB7">La unión hacer la fuerza</font></cite>
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-4">
+                                <article class="team-member">
+                                     <!--leo (foto, texto, personaje, actor)-->
+                                     <header>
+                                        <h3>
+                                            <font color="#D4331E">Leo</font>
+                                        </h3>
+                                        <h4 class="position">La cazadora de las estrellas</h4>
+                                    </header>
+            
+                                    <figure class="team-member-photo">
+                                            <div class="flip">
+                                                <div class="front flip-img">
+                                                    <img src="./images/leo.jpg" alt="leo">
+                                                </div>
+                                                <div class="back flip-img">
+                                                    <img src="./images/leoh.jpg" alt="leo">
+                                                </div>
+                                            </div>
+                                        </figure>
+            
+                                    <p class="bio">
+                                        "Institiva, brutal y impulsiva. Si la ves no dudes, corre." - <cite><font color="#D4331E">¿A si que has caido en la boca del León? Pobre, tranquilo será rápido.</font></cite>
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                <article class="team-member">
+                                     <!--libra (foto, texto, personaje, actor)-->
+                                     <header>
+                                        <h3>
+                                            <font color="#FFE202">Libra</font>
+                                        </h3>
+                                        <h4 class="position">La divina jueza</font></h4>
+                                    </header>
+            
+                                    <figure class="team-member-photo">
+                                            <div class="flip">
+                                                <div class="front flip-img">
+                                                    <img src="./images/libra.jpg" alt="libra">
+                                                </div>
+                                                <div class="back flip-img">
+                                                    <img src="./images/libraH.jpg" alt="libra">
+                                                </div>
+                                            </div>
+                                        </figure>
+            
+                                    <p class="bio">
+                                        "Justa y destructiva. Un gran poder siempre esta equilibrado." - <cite><font color="#FFE202">¿Preparado para tu sentencia? Aquí se te juzgará tú cometido.</font></cite>
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                    <article class="team-member">
+                                         <!--picis (foto, texto, personaje, actor)-->
+                                         <header>
+                                            <h3>
+                                                <font color="#FF87A9">Picis</font>
+                                            </h3>
+                                            <h4 class="position">Buscadora de la pureza</h4>
+                                        </header>
+                
+                                        <figure class="team-member-photo">
+                                                <div class="flip">
+                                                    <div class="front flip-img">
+                                                        <img src="./images/Picis.jpg" alt="Picis">
+                                                    </div>
+                                                    <div class="back flip-img">
+                                                        <img src="./images/PicisH.jpg" alt="Picis">
+                                                    </div>
+                                                </div>
+                                            </figure>
+                
+                                        <p class="bio">
+                                            "Camaleonica y reflexiva . Ve cosas donde nadie se percata." - <cite><font color="#FF87A9">Nunca hay que subestimar a nada o a nadie. Nunca sabes que sorpresas puede darte</font></cite>
+                                        </p>
+                                    </article>
+                                </div>
+                                <div class="col-4">
+                                        <article class="team-member">
+                                             <!--sagitario (foto, texto, personaje, actor)-->
+                                             <header>
+                                                <h3>
+                                                    <font color="#FAB804">Sagitario</font>
+                                                </h3>
+                                                <h4 class="position">La flecha certera</h4>
+                                            </header>
+                    
+                                            <figure class="team-member-photo">
+                                                    <div class="flip">
+                                                        <div class="front flip-img">
+                                                            <img src="./images/sagitario.jpg" alt="sagitario">
+                                                        </div>
+                                                        <div class="back flip-img">
+                                                            <img src="./images/sagitarioH.jpg" alt="sagitario">
+                                                        </div>
+                                                    </div>
+                                                </figure>
+                    
+                                            <p class="bio">
+                                                "Observadora, letal y sigilosa. Sus flechas nunca fallan, siempre van al puto flaco." - <cite><font color="#FAB804">¿Fallar yo? ¿Cuando?</font></cite>
+                                            </p>
+                                        </article>
+                                    </div>
+                                    <div class="col-4">
+                                        <article class="team-member">
+                                             <!--scorpio (foto, texto, personaje, actor)-->
+                                             <header>
+                                                <h3>
+                                                    <font color="#704C91">Scorpio</font>
+                                                </h3>
+                                                <h4 class="position">El misterio letal</h4>
+                                            </header>
+                    
+                                            <figure class="team-member-photo">
+                                                    <div class="flip">
+                                                        <div class="front flip-img">
+                                                            <img src="./images/Scorpio.jpg" alt="Scorpio">
+                                                        </div>
+                                                        <div class="back flip-img">
+                                                            <img src="./images/ScorpioH.jpg" alt="Scorpio">
+                                                        </div>
+                                                    </div>
+                                                </figure>
+                    
+                                            <p class="bio">
+                                                "Callados, inteligente y fugaz. Su aguijón puede tumbar hasta un titan." - <cite><font color="#704C91">Hay situaciones en las que es mejor no molestar.</font></cite>
+                                            </p>
+                                        </article>
+                                    </div>
+                                    <div class="col-4">
+                                            <article class="team-member">
+                                                 <!--tauro (foto, texto, personaje, actor)-->
+                                                 <header>
+                                                    <h3>
+                                                        <font color="#1BC32B">Tauro</font>
+                                                    </h3>
+                                                    <h4 class="position">La luchadora imparable</h4>
+                                                </header>
+                        
+                                                <figure class="team-member-photo">
+                                                        <div class="flip">
+                                                            <div class="front flip-img">
+                                                                <img src="./images/Tauro.jpg" alt="Tauro">
+                                                            </div>
+                                                            <div class="back flip-img">
+                                                                <img src="./images/TauroH.jpg" alt="Tauro">
+                                                            </div>
+                                                        </div>
+                                                    </figure>
+                        
+                                                <p class="bio">
+                                                    "Resistentes, luchadores y de ideas fijas. De gran potencial y de poderosa resistencia" - <cite><font color="#1BC32B">No todo es cuestión de luchar.</font></cite>
+                                                </p>
+                                            </article>
+                                        </div>
+                                        <div class="col-4">
+                                                <article class="team-member">
+                                                     <!--virgo (foto, texto, personaje, actor)-->
+                                                     <header>
+                                                        <h3>
+                                                            <font color="#547FC9">Virgo</font>
+                                                        </h3>
+                                                        <h4 class="position">La curandera</h4>
+                                                    </header>
+                            
+                                                    <figure class="team-member-photo">
+                                                            <div class="flip">
+                                                                <div class="front flip-img">
+                                                                    <img src="./images/Virgo.jpg" alt="Virgo">
+                                                                </div>
+                                                                <div class="back flip-img">
+                                                                    <img src="./images/VirgoH.jpg" alt="Virgo">
+                                                                </div>
+                                                            </div>
+                                                        </figure>
+                            
+                                                    <p class="bio">
+                                                        "Atenta, responsable y empatica. No existe mal que ella no pueda remediar." - <cite><font color="#547FC9">Esto te lo curo yo en un momento</font></cite>
+                                                    </p>
+                                                </article>
+                                            </div>       
+            </div>
+        </section>
+
+        <section id="compañía" class="company section-container">
+            <div class="row-flex">
+                <div class="company-item">
+                    <!--Coche-->
+                    <figure>
+                        <img class="company-img" src="./images/BrujaEstelar.jpg" alt="BrujaEstelar">
+                        <figcaption>
+                            <B><center>Brujula</center></B>
+                        </figcaption>
+                    </figure>
+                    <p class="company-info">
+                        Siempre te guiaré en la dirección correcta.
+                    </p>
+
+                </div>
+                <div class="company-item">
+                    <!--Coche-->
+                    <figure>
+                        <img class="company-img" src="./images/Mapaestelar.jpg" alt="Mapaestelar">
+                        <figcaption>
+                                                <B><center>Mapa</center></B>
+                        </figcaption>
+                    </figure>
+                    <p class="company-info">
+                        Nunca has de ir sin mi, hay demasiados peligros ahí fuera como para no saber por donde vas.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!--Información final-->
+         Jose Antonio Carrión Pentinat ©: 2017 bbaa
+    </footer>
+</body>
+</html>

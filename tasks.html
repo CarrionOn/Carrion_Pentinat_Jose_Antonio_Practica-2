@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Constelacion</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<meta charset="UTF-8">
+    <script src="./js/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+	<nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="navbar-item">
+                <a href="index.html#quien-soy">Quien soy</a>
+            </li>
+            <li class="navbar-item">
+                <a href="index.html#equipo">Alter Ego</a>
+            </li>
+            <li class="navbar-item">
+                <a href="index.html#transporte">Como verme</a>
+            </li>
+            <li class="navbar-item ">
+                <a href="contact.html">Encuentrame</a>
+            </li>
+            <li class="navbar-item active">
+                <a href="tasks.html">Tareas</a>
+            </li>
+            </ul>
+    </nav>
+
+	<div class="container">
+		<section class="row section-container">
+
+			<h2>Tareas</h2>
+
+			<div class="col-6">
+				<h3>Añadir nueva tarea</h3>
+				<form>
+					<input type="text" id="newTaskName" name="name" placeholder="Nueva tarea..." required>
+					<br>
+					<br>
+					<button id="sendNewTask">Enviar</button>
+				</form>
+			</div>
+
+	</div>
+
+	<footer class="footer">
+		José Antonio Carrión Pentinat &copy; 2017 bbaa
+	</footer>
+</body>
+<script src="js/ajax.js"></script>
+</html>
